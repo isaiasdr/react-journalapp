@@ -1,6 +1,5 @@
 .journal__main-content {
     display: flex;
-
 }
 
 .journal__sidebar {
@@ -51,6 +50,7 @@
     background-color: white;
     border-radius: 4px;
     color: $dark-grey;
+    justify-content: space-between;
     display: flex;
     margin-bottom: 10px;
     overflow: hidden;
