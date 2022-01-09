@@ -95,7 +95,7 @@ export const startUploadingImage = ( file ) => {
         const fileUrl = await fileUpload( file );
         activeNote.url = fileUrl;
 
-        dispatch( startSaveNote( activeNote ) );
+        await dispatch( startSaveNote( activeNote ) );
         Swal.close();
     }
 }
